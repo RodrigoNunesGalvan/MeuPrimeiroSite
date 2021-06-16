@@ -1,0 +1,309 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: #29F3E2;
+}
+
+header{
+	background: url("bg topo.png");
+	padding: 20px 0;
+}
+
+.paginas{
+	font-weight: bold;
+}
+
+.caixa{
+
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 140px;
+	right: 0; 
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #0F4B46;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+
+nav a:hover{
+	color: #FFFFFF;
+	text-decoration: underline;	
+}
+
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+
+}
+
+.produtos li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+
+}
+
+.produtos li:hover {
+	border-color: #0F4B46;
+}
+
+.produtos li:active {
+	border-color: red;
+}
+
+.produtos li:hover h2 {
+	font-size: 30px;	
+} 
+
+.produtos h2{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.produto-descricao{
+	font-size: 15px;
+}
+
+.produto-precos{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer{
+	text-align: center;
+	background: url("bg.png");
+	padding: 40px 0;
+	
+}
+ .copyright{
+ 	color: #FFFFFF;
+ 	font-size: 13px;
+ 	margin: 20px 0;
+}
+
+.centralizar {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px;
+}
+
+form label {
+ 	display: block;
+ 	font-size: 20px;
+ 	margin: 0 0 10px;
+}
+
+legend{
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+
+.input-padrao{
+   	display: block;
+   	margin: 0 0 20px;
+   	padding: 10px 25px;
+   	width: 50%;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.enviar{
+	width: 30%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;        /* criar um botão de enviar */
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+
+.enviar:hover{
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+
+table{
+	margin: 20px 0 40px;
+}
+
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px; 
+}
+
+.tabela {
+	margin: 40px;
+}
+
+/* css da página inicial */
+
+.a2like {
+	width: 100%;
+}
+
+section h3 {
+	font-weight: bold;
+	color: white;
+}
+	
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+	padding: 1em 0;
+	width: 940px;
+	margin: 0 auto;	
+	color: white;  /* o clear limpa o float */
+}
+ 
+.principal-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #29F3E2;		
+}
+
+.principal p {
+	width: 940px;
+	margin: 0 0 2em;
+}
+
+.principal strong {
+	font-weight: bold; /* deixar um texto em negrito desde que esteja com a tag strong */
+}
+
+.principal em {
+	font-style: italic; /* deixar um texto em itálico desde que esteja com a tag em */
+}
+
+.logo3 {
+	width: 100px;	/*colocar o tamanho da imagem*/
+	float: left;    /*flutuar a imagem do restante do elemento*/
+	margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#29F3E2, #0F4B46);
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+                          /* criar uma tag <seletion> para incorporar um mapa*/
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.beneficios {
+	padding: 1em 0;
+	background: #0F4B46;
+}
+
+.conteudo-beneficios {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: 400%;
+	color: white;
+	margin: 0 auto;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;   /* .itens: first-child é um pseudo elemento fazendo isso somente o primeiro item da linha fica bold*/
+}
+
+.itens:before {
+	content:"★";
+}
+
+.imagem-beneficio {
+	width: 60%;
+	margin-top: 5%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 1px 1px 10px 5px black;
+}
+.imagem-beneficio:hover {
+	opacity: 0.9;
+}
+.video {
+	width: 560px;
+	margin: 3em auto;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 1px 1px 20px 5px white;    /* para centralizar o video */  /* criar uma div para incorporar um video */
+}
+.video:hover {
+	opacity: 0.3;
+}
+
+@media scren and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+		width: auto;
+	}
+	h1 {
+		text-align: center;
+	}	
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficio {
+		width: 100%;
+	}
+}
